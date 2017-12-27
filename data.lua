@@ -92,6 +92,6 @@ function createPowerArmorMkx(x, equipGridSize, inventory_bonus, ingridents_modul
 	end
 end
 
-createPowerArmorMkx(3, 14, 40, 10, 600)
-createPowerArmorMkx(4, 20, 60, 15, 800)
-createPowerArmorMkx(5, 25, 80, 20, 1000)
+for x=1,10 do
+	createPowerArmorMkx(x+2, 10 + 2*x, 30 + 5*x, 5 + 5*x, 400 + 400*x)
+end
